@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { Environment, EnvironmentValidator } from "./Environment";
-import { Validator } from "./Validator";
+import { Environment, EnvironmentValidator } from "./Environment.ts";
+import { Validator } from "./Validator.ts";
 
 /**
  * The payload data for a subscription-renewal-date extension notification.

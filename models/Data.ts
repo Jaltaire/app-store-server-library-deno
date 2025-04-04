@@ -1,9 +1,9 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { ConsumptionRequestReason, ConsumptionRequestReasonValidator } from "./ConsumptionRequestReason"
-import { Environment, EnvironmentValidator } from "./Environment"
-import { Status, StatusValidator } from "./Status"
-import { Validator } from "./Validator"
+import { ConsumptionRequestReason, ConsumptionRequestReasonValidator } from "./ConsumptionRequestReason.ts"
+import { Environment, EnvironmentValidator } from "./Environment.ts"
+import { Status, StatusValidator } from "./Status.ts"
+import { Validator } from "./Validator.ts"
 
 /**
  * The app metadata and the signed renewal and transaction information.

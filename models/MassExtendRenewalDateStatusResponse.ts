@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { Validator } from "./Validator"
+import { Validator } from "./Validator.ts"
 
 /**
  * A response that indicates the current status of a request to extend the subscription renewal date to all eligible subscribers.

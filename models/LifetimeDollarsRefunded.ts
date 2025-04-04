@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { NumberValidator } from "./Validator";
+import { NumberValidator } from "./Validator.ts";
 
 /**
  * A value that indicates the dollar amount of refunds the customer has received in your app, since purchasing the app, across all platforms.

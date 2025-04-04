@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { StringValidator, Validator } from "./Validator";
+import { StringValidator, Validator } from "./Validator.ts";
 
 /**
  * An error or result that the App Store server receives when attempting to send an App Store server notification to your server.

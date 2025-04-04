@@ -1,14 +1,14 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { AccountTenure } from "./AccountTenure"
-import { ConsumptionStatus } from "./ConsumptionStatus"
-import { DeliveryStatus } from "./DeliveryStatus"
-import { LifetimeDollarsPurchased } from "./LifetimeDollarsPurchased"
-import { LifetimeDollarsRefunded } from "./LifetimeDollarsRefunded"
-import { Platform } from "./Platform"
-import { PlayTime } from "./PlayTime"
-import { RefundPreference } from "./RefundPreference"
-import { UserStatus } from "./UserStatus"
+import { AccountTenure } from "./AccountTenure.ts"
+import { ConsumptionStatus } from "./ConsumptionStatus.ts"
+import { DeliveryStatus } from "./DeliveryStatus.ts"
+import { LifetimeDollarsPurchased } from "./LifetimeDollarsPurchased.ts"
+import { LifetimeDollarsRefunded } from "./LifetimeDollarsRefunded.ts"
+import { Platform } from "./Platform.ts"
+import { PlayTime } from "./PlayTime.ts"
+import { RefundPreference } from "./RefundPreference.ts"
+import { UserStatus } from "./UserStatus.ts"
 
 /**
  * The request body containing consumption information.

@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { OrderLookupStatus, OrderLookupStatusValidator } from "./OrderLookupStatus";
-import { Validator } from "./Validator";
+import { OrderLookupStatus, OrderLookupStatusValidator } from "./OrderLookupStatus.ts";
+import { Validator } from "./Validator.ts";
 
 /**
  * A response that includes the order lookup status and an array of signed transactions for the in-app purchases in the order.

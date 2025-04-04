@@ -1,12 +1,12 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { Data, DataValidator } from "./Data";
-import { DecodedSignedData } from "./DecodedSignedData";
-import { ExternalPurchaseToken, ExternalPurchaseTokenValidator } from "./ExternalPurchaseToken";
-import { NotificationTypeV2, NotificationTypeV2Validator } from "./NotificationTypeV2";
-import { Subtype, SubtypeValidator } from "./Subtype";
-import { Summary, SummaryValidator } from "./Summary";
-import { Validator } from "./Validator";
+import { Data, DataValidator } from "./Data.ts";
+import { DecodedSignedData } from "./DecodedSignedData.ts";
+import { ExternalPurchaseToken, ExternalPurchaseTokenValidator } from "./ExternalPurchaseToken.ts";
+import { NotificationTypeV2, NotificationTypeV2Validator } from "./NotificationTypeV2.ts";
+import { Subtype, SubtypeValidator } from "./Subtype.ts";
+import { Summary, SummaryValidator } from "./Summary.ts";
+import { Validator } from "./Validator.ts";
 
 /**
  * A decoded payload containing the version 2 notification data.

@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { Status, StatusValidator } from "./Status"
-import { Validator } from "./Validator"
+import { Status, StatusValidator } from "./Status.ts"
+import { Validator } from "./Validator.ts"
 
 /**
  * The most recent App Store-signed transaction information and App Store-signed renewal information for an auto-renewable subscription.

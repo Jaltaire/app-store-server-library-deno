@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { NumberValidator } from "./Validator";
+import { NumberValidator } from "./Validator.ts";
 
 /**
  * A value that indicates whether the order ID in the request is valid for your app.

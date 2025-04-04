@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { StringValidator } from "./Validator";
+import { StringValidator } from "./Validator.ts";
 
 /**
  * The type of in-app purchase products you can offer in your app.

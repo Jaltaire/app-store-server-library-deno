@@ -1,6 +1,6 @@
 // Copyright (c) 2024 Apple Inc. Licensed under MIT License.
 
-import { StringValidator } from "./Validator";
+import { StringValidator } from "./Validator.ts";
 
 /**
  * The customer-provided reason for a refund request.

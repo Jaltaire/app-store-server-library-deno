@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { NumberValidator } from "./Validator";
+import { NumberValidator } from "./Validator.ts";
 
 /**
  * The platform on which the customer consumed the in-app purchase.

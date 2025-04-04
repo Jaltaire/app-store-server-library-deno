@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { NumberValidator } from "./Validator";
+import { NumberValidator } from "./Validator.ts";
 
 /**
  * The code that represents the reason for the subscription-renewal-date extension.

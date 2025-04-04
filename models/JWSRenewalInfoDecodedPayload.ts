@@ -1,13 +1,13 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { AutoRenewStatus, AutoRenewStatusValidator } from "./AutoRenewStatus"
-import { DecodedSignedData } from "./DecodedSignedData"
-import { Environment, EnvironmentValidator } from "./Environment"
-import { ExpirationIntent, ExpirationIntentValidator } from "./ExpirationIntent"
-import { OfferDiscountType, OfferDiscountTypeValidator } from "./OfferDiscountType"
-import { OfferType, OfferTypeValidator } from "./OfferType"
-import { PriceIncreaseStatus, PriceIncreaseStatusValidator } from "./PriceIncreaseStatus"
-import { Validator } from "./Validator"
+import { AutoRenewStatus, AutoRenewStatusValidator } from "./AutoRenewStatus.ts"
+import { DecodedSignedData } from "./DecodedSignedData.ts"
+import { Environment, EnvironmentValidator } from "./Environment.ts"
+import { ExpirationIntent, ExpirationIntentValidator } from "./ExpirationIntent.ts"
+import { OfferDiscountType, OfferDiscountTypeValidator } from "./OfferDiscountType.ts"
+import { OfferType, OfferTypeValidator } from "./OfferType.ts"
+import { PriceIncreaseStatus, PriceIncreaseStatusValidator } from "./PriceIncreaseStatus.ts"
+import { Validator } from "./Validator.ts"
 
 /**
  * A decoded payload containing subscription renewal information for an auto-renewable subscription.

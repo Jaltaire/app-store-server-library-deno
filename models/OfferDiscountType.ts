@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { StringValidator } from "./Validator";
+import { StringValidator } from "./Validator.ts";
 
 /**
  * The payment mode you configure for an introductory offer, promotional offer, or offer code on an auto-renewable subscription.

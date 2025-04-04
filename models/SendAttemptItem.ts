@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { SendAttemptResult, SendAttemptResultValidator } from "./SendAttemptResult";
-import { Validator } from "./Validator"
+import { SendAttemptResult, SendAttemptResultValidator } from "./SendAttemptResult.ts";
+import { Validator } from "./Validator.ts"
 
 /**
  * The success or error information and the date the App Store server records when it attempts to send a server notification to your server.

@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { SendAttemptItem, SendAttemptItemValidator } from "./SendAttemptItem";
-import { Validator } from "./Validator";
+import { SendAttemptItem, SendAttemptItemValidator } from "./SendAttemptItem.ts";
+import { Validator } from "./Validator.ts";
 
 /**
  * A response that contains the contents of the test notification sent by the App Store server and the result from your server.
