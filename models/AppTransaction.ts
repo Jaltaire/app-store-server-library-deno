@@ -1,8 +1,8 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { Environment, EnvironmentValidator } from "./Environment"
-import { PurchasePlatform, PurchasePlatformValidator } from "./PurchasePlatform"
-import { Validator } from "./Validator"
+import { Environment, EnvironmentValidator } from "./Environment.ts";
+import { PurchasePlatform, PurchasePlatformValidator } from "./PurchasePlatform.ts";
+import { Validator } from "./Validator.ts";
 
 /**
  * Information that represents the customer’s purchase of the app, cryptographically signed by the App Store.

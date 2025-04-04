@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { LastTransactionsItem } from "./LastTransactionsItem";
-import { Validator } from "./Validator";
+import { LastTransactionsItem } from "./LastTransactionsItem.ts";
+import { Validator } from "./Validator.ts";
 
 /**
  * Information for auto-renewable subscriptions, including signed transaction information and signed renewal information, for one subscription group.

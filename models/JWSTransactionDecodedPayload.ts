@@ -1,14 +1,14 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { DecodedSignedData } from "./DecodedSignedData"
-import { Environment, EnvironmentValidator } from "./Environment"
-import { InAppOwnershipType, InAppOwnershipTypeValidator } from "./InAppOwnershipType"
-import { OfferDiscountType, OfferDiscountTypeValidator } from "./OfferDiscountType"
-import { OfferType, OfferTypeValidator } from "./OfferType"
-import { RevocationReason, RevocationReasonValidator } from "./RevocationReason"
-import { TransactionReason, TransactionReasonValidator } from "./TransactionReason"
-import { Type, TypeValidator } from "./Type"
-import { Validator } from "./Validator"
+import { DecodedSignedData } from "./DecodedSignedData.ts"
+import { Environment, EnvironmentValidator } from "./Environment.ts"
+import { InAppOwnershipType, InAppOwnershipTypeValidator } from "./InAppOwnershipType.ts"
+import { OfferDiscountType, OfferDiscountTypeValidator } from "./OfferDiscountType.ts"
+import { OfferType, OfferTypeValidator } from "./OfferType.ts"
+import { RevocationReason, RevocationReasonValidator } from "./RevocationReason.ts"
+import { TransactionReason, TransactionReasonValidator } from "./TransactionReason.ts"
+import { Type, TypeValidator } from "./Type.ts"
+import { Validator } from "./Validator.ts"
 
 /**
  * A decoded payload containing transaction information.

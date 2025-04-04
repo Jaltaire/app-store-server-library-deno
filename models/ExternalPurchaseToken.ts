@@ -1,6 +1,6 @@
 // Copyright (c) 2024 Apple Inc. Licensed under MIT License.
 
-import { Validator } from "./Validator"
+import { Validator } from "./Validator.ts"
 
 /**
  * The payload data that contains an external purchase token.

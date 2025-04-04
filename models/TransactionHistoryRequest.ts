@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { InAppOwnershipType } from "./InAppOwnershipType"
+import { InAppOwnershipType } from "./InAppOwnershipType.ts"
 
 export interface TransactionHistoryRequest {
 

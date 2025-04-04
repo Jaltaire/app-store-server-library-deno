@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { SendAttemptItem, SendAttemptItemValidator } from "./SendAttemptItem"
-import { Validator } from "./Validator"
+import { SendAttemptItem, SendAttemptItemValidator } from "./SendAttemptItem.ts"
+import { Validator } from "./Validator.ts"
 
 /**
  * The App Store server notification history record, including the signed notification payload and the result of the server’s first send attempt.

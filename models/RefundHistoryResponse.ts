@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { Validator } from "./Validator";
+import { Validator } from "./Validator.ts";
 
 /**
  * A response that contains an array of signed JSON Web Signature (JWS) refunded transactions, and paging information.

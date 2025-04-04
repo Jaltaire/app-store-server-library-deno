@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { NotificationHistoryResponseItem } from "./NotificationHistoryResponseItem";
-import { Validator } from "./Validator";
+import { NotificationHistoryResponseItem } from "./NotificationHistoryResponseItem.ts";
+import { Validator } from "./Validator.ts";
 
 /**
  * A response that contains the App Store Server Notifications history for your app.

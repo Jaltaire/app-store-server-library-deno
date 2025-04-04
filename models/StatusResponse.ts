@@ -1,8 +1,8 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { Environment, EnvironmentValidator } from "./Environment";
-import { SubscriptionGroupIdentifierItem } from "./SubscriptionGroupIdentifierItem";
-import { Validator } from "./Validator";
+import { Environment, EnvironmentValidator } from "./Environment.ts";
+import { SubscriptionGroupIdentifierItem } from "./SubscriptionGroupIdentifierItem.ts";
+import { Validator } from "./Validator.ts";
 
 /**
  * A response that contains status information for all of a customer’s auto-renewable subscriptions in your app.
