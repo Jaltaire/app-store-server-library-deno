@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { ASN1HEX } from 'jsrsasign';
+import { ASN1HEX } from 'npm:jsrsasign';
 
 const IN_APP_TYPE_ID = 17;
 const TRANSACTION_IDENTIFIER_TYPE_ID = 1703;

@@ -1,6 +1,6 @@
 // Copyright (c) 2023 Apple Inc. Licensed under MIT License.
 
-import { KeyObject, createPrivateKey, createSign } from "crypto";
+import { KeyObject, createPrivateKey, createSign } from "node:crypto";
 
 export class PromotionalOfferSignatureCreator {
 
