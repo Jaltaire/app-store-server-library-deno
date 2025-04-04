@@ -23,7 +23,7 @@ export { SignedDataVerifier, VerificationException, VerificationStatus } from '.
 export { ReceiptUtility } from './receipt_utility.ts'
 export { AccountTenure } from "./models/AccountTenure.ts"
 export { AutoRenewStatus } from './models/AutoRenewStatus.ts'
-export { CheckTestNotificationResponse } from './models/CheckTestNotificationResponse.ts'
+export { CheckTestNotificationResponse, CheckTestNotificationResponseValidator } from './models/CheckTestNotificationResponse.ts'
 export { ConsumptionRequest } from './models/ConsumptionRequest.ts'
 export { ConsumptionStatus } from './models/ConsumptionStatus.ts'
 export { Data } from './models/Data.ts'
